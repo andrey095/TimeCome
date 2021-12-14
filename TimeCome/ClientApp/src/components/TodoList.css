@@ -1,0 +1,97 @@
+﻿ul li:hover {
+    background-color: lightblue;
+}
+.col-auto, .container-fluid {
+    padding: 0;
+}
+.row1 {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 15px;
+}
+textarea {
+    resize: none;
+}
+#table-caption {
+    background-color: white;
+    padding-left: 15px;
+}
+#task-form {
+    background-color: white;
+}
+#table-body {
+    background-color: white;
+    padding: 0 15px 0 15px;
+}
+#todo-list {
+    height: 100%;
+}
+#tasks-table {
+    height: 100%;
+    background-color: lightgray;
+    margin: 0;
+}
+#task-status {
+    width: 16px;
+    height: 16px;
+    background-color: limegreen;
+}
+#task-about {
+    width: 90%;
+    margin-left: auto;
+}
+.row-middle {
+    display: flex;
+    align-items: center;
+}
+.rdt {
+    width: 100%;
+}
+.task-hashtags {
+    margin: 10px 0;
+    width: 100%;
+}
+.hashtagList {
+    padding: 0px 4px;
+    font-style: oblique;
+    border-radius: 10px;
+}
+.hashtagList:hover {
+    background-color: lavender;
+    cursor: pointer;
+}
+#task-status:hover {
+    cursor: pointer;
+}
+#task-hashtagSelect {
+    width: 100%;
+}
+.task-done {
+    text-decoration: line-through;
+}
+.task-overdue {
+    color: red;
+}
+li.active {
+    color: red;
+}
+
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin: 15px auto;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
